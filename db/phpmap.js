@@ -16,6 +16,7 @@
         var x = v.indexOf('=');
         arg[v.slice(0,x)] = v.slice(x+1);
       });
+      console.log (url, arg);
       url = url.slice(0,spl);
       try {
         arguments[1] = maps[url].replace(/<(.*?)>/g,

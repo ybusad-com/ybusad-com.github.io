@@ -1,1 +1,1 @@
-<?php require("7FA7CB3C7C.json")?>
+{"code":0,"msg":"ok","data":{"background":{"color":"","customURL":"","name":"","type":1},"birthday":null,"exists":true,"infos":[],"refBaike":null,"summary":{"exists":true,"name":"luo","code":"7FA7CB3C7C","alias":"luo","description":"有赞后端小罗","homepageUrl":"/u/luo","group":2,"groupName":"实名用户","isLocked":false,"gender":1,"avatarUrl":"/common/person.jpg","realName":"","refBaike":"","isManager":false,"isMe":false,"isLover":false,"introduction":"","joinTime":"2019-12-06 18:28:39"}}}

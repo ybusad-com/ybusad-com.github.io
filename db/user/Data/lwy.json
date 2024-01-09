@@ -1,1 +1,1 @@
-<?php require("F9995A615E.json")?>
+{"code":0,"msg":"ok","data":{"background":{"color":"","customURL":"","name":"","type":1},"birthday":null,"exists":true,"infos":[{"name":"真实姓名","value":"刘汪洋"}],"refBaike":null,"summary":{"exists":true,"name":"了凡","code":"F9995A615E","alias":"lwy","description":"有赞后端了凡","homepageUrl":"/u/lwy","group":2,"groupName":"实名用户","isLocked":false,"gender":1,"avatarUrl":"/user/1c32e4cac021.jpg","realName":"刘汪洋","refBaike":"","isManager":false,"isMe":false,"isLover":false,"introduction":"","joinTime":"2019-12-09 13:40:11"}}}

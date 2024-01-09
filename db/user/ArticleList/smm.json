@@ -1,1 +1,1 @@
-<?php require("FD5F2BEFEC.json")?>
+{"code":0,"msg":"ok","data":{"list":[{"authorCode":"FD5F2BEFEC","authorName":"Sunbread","content":"该文章需要权限浏览","createTime":"2015-07-10 19:57:53","customCoverKey":"","isGood":false,"isTop":false,"replyCount":1,"tags":[],"title":"面包服务器开发记","urlCode":"AHU179ZAE9","viewCount":609,"viewGroup":4,"authPassed":false}],"pageInfo":{"total":1,"pageSize":15,"current":1},"total":1,"totalPages":1}}

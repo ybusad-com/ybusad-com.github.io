@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="15px" viewBox="0 0 8 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="326" height="712" rx="8"></rect>
+        <filter x="-4.8%" y="-2.0%" width="109.5%" height="104.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-16.7%" y="-34.6%" width="133.3%" height="170.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-4" x="0" y="0" width="432" height="205" rx="8"></rect>
+        <filter x="-3.6%" y="-7.1%" width="107.2%" height="115.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="随记" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" fill="#313030" x="-2112" y="-310" width="4269" height="3238"></rect>
+        <g id="网页版随记客户端" transform="translate(-320.000000, -89.000000)">
+            <g id="矩形" transform="translate(135.000000, 79.000000)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="编组-2" transform="translate(181.000000, 103.000000)" fill="#FFFFFF" stroke="#CED4DA">
+                <rect id="矩形" x="0.5" y="0.5" width="233" height="35" rx="4"></rect>
+            </g>
+            <g id="编组-4" transform="translate(298.500000, 68.000000)">
+                <g id="卡片" transform="translate(0.500000, 0.000000)" filter="url(#filter-3)">
+                    <g id="矩形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+                <g id="编组" transform="translate(21.500000, 21.000000)" fill="#7B8A8B" fill-rule="nonzero">
+                    <path d="M1.33333333,12.5 C0.596953667,12.5 0,13.0596441 0,13.75 C0,14.4403559 0.596953667,15 1.33333333,15 C2.069713,15 2.66666667,14.4403559 2.66666667,13.75 C2.66666667,13.0596441 2.069713,12.5 1.33333333,12.5 Z M1.33333333,6.25 C0.596953667,6.25 0,6.80964406 0,7.5 C0,8.19035594 0.596953667,8.75 1.33333333,8.75 C2.069713,8.75 2.66666667,8.19035594 2.66666667,7.5 C2.66666667,6.80964406 2.069713,6.25 1.33333333,6.25 Z M1.33333333,0 C0.596953667,0 0,0.559644121 0,1.25 C0,1.94035588 0.596953667,2.5 1.33333333,2.5 C2.069713,2.5 2.66666667,1.94035588 2.66666667,1.25 C2.66666667,0.559644121 2.069713,0 1.33333333,0 Z M6.66666667,12.5 C5.930287,12.5 5.33333333,13.0596441 5.33333333,13.75 C5.33333333,14.4403559 5.930287,15 6.66666667,15 C7.40304627,15 8,14.4403559 8,13.75 C8,13.0596441 7.40304627,12.5 6.66666667,12.5 Z M6.66666667,6.25 C5.930287,6.25 5.33333333,6.80964406 5.33333333,7.5 C5.33333333,8.19035594 5.930287,8.75 6.66666667,8.75 C7.40304627,8.75 8,8.19035594 8,7.5 C8,6.80964406 7.40304627,6.25 6.66666667,6.25 Z M6.66666667,0 C5.930287,0 5.33333333,0.559644121 5.33333333,1.25 C5.33333333,1.94035588 5.930287,2.5 6.66666667,2.5 C7.40304627,2.5 8,1.94035588 8,1.25 C8,0.559644121 7.40304627,0 6.66666667,0 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+{"code":0,"msg":"ok","data":{"list":[{"content":"失望的点是什么?","createTime":"2022-08-26 23:20:23","id":5166,"related":{"content":"看吕雨晴的网站，她好像要放弃自研转投 flomo 了。我去研究了一波 flomo，确实好像是一个比较好的随记替代品，只是我还是有点失望吧。","id":54714,"isPublic":true,"type":"essay"},"type":"essay"}],"pageInfo":{"total":1,"pageSize":15,"current":1},"total":1,"totalPages":1}}

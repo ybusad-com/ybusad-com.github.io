@@ -1,0 +1,1 @@
+{"code":0,"msg":"ok","data":{"list":[{"barName":"骁","content":"<script>alert(\"1\")</script>","createTime":"2022-07-28 10:56:15","floor":1,"id":3204,"isMainBar":true,"pid":0,"threadId":3204,"tid":3204,"title":"<script>alert(\"1\")</script>","type":"thread"}],"pageInfo":{"total":1,"pageSize":15,"current":1},"total":1,"totalPages":1}}

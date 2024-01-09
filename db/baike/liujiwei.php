@@ -1,0 +1,1 @@
+<?php require('70.php') ?>

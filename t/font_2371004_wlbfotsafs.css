@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2371004 */
+  src: url('/t/font_2371004_wlbfotsafs.woff2?t=1647661410860') format('woff2'),
+       url('/t/font_2371004_wlbfotsafs.woff?t=1647661410860') format('woff'),
+       url('/t/font_2371004_wlbfotsafs.ttf?t=1647661410860') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-emotion:before {
+  content: "\e733";
+}
+
+.icon-p-enter:before {
+  content: "\e621";
+}
+
+.icon-p-enter2:before {
+  content: "\e64c";
+}
+
+.icon-rotate-left:before {
+  content: "\e846";
+}
+
+.icon-fold:before {
+  content: "\e606";
+}
+
+.icon-rotate-right:before {
+  content: "\e64a";
+}
+
+.icon-reply:before {
+  content: "\e65c";
+}
+
+.icon-author:before {
+  content: "\e619";
+}
+
+.icon-picture:before {
+  content: "\e616";
+}
+
+.icon-p-refresh:before {
+  content: "\e62f";
+}
+
+.icon-chat:before {
+  content: "\e604";
+}
+
+.icon-repost:before {
+  content: "\e8a6";
+}
+
+.icon-favor:before {
+  content: "\e60e";
+}
+
+.icon-post:before {
+  content: "\e61f";
+}
+
+.icon-gold:before {
+  content: "\e617";
+}
+
+.icon-silver:before {
+  content: "\e618";
+}
+
+.icon-bronze:before {
+  content: "\e6d4";
+}
+
+.icon-star:before {
+  content: "\e693";
+}
+
+.icon-more:before {
+  content: "\e6d3";
+}
+
+.icon-prev-music:before {
+  content: "\e691";
+}
+
+.icon-next-music:before {
+  content: "\e692";
+}
+
+.icon-play:before {
+  content: "\e61c";
+}
+
+.icon-pause:before {
+  content: "\e61d";
+}
+
+.icon-loop-one:before {
+  content: "\e6a2";
+}
+
+.icon-loop-all:before {
+  content: "\e6a3";
+}
+

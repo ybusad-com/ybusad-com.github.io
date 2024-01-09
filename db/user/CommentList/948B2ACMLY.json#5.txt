@@ -1,0 +1,1 @@
+{"code":0,"msg":"ok","data":{"list":[{"content":"那不是博士。是学位服。。而且学位服是分颜色的哦！","createTime":"2015-05-28 22:37:21","id":25,"related":{"content":"最近大四的都忙着照毕业照啊，一个个打扮的跟博士似的。","id":12921,"isPublic":true,"type":"essay"},"type":"essay"}],"pageInfo":{"total":61,"pageSize":15,"current":5},"total":61,"totalPages":5}}

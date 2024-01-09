@@ -1,0 +1,1 @@
+{"code":0,"msg":"ok","data":{"list":[{"barName":"骁","content":"代码用不了啊，安全问题= =。输出都用不了","createTime":"2015-06-07 19:33:33","floor":1,"id":993,"isMainBar":true,"pid":0,"threadId":993,"tid":993,"title":"23333333333333测试","type":"thread"}],"pageInfo":{"total":1,"pageSize":15,"current":1},"total":1,"totalPages":1}}

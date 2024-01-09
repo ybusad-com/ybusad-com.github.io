@@ -1,0 +1,1 @@
+{"code":0,"msg":"ok","data":{"success":1,"challenge":"344980705678ffbc77e6661dda71fd01","gt":"70e95c0b4c12f93c40fe57c346579efa","new_captcha":true}}

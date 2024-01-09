@@ -1,0 +1,1 @@
+{"code":0,"msg":"ok","data":{"list":[{"content":"一定要加油！","createTime":"2022-11-18 09:24:47","id":5264,"related":{"content":"医生给聊了聊，总之呢这个病需要长期治疗了😞","id":59823,"isPublic":true,"type":"essay"},"type":"essay"}],"pageInfo":{"total":1,"pageSize":15,"current":1},"total":1,"totalPages":1}}

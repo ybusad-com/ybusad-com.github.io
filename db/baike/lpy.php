@@ -1,0 +1,1 @@
+<?php require('7.php') ?>

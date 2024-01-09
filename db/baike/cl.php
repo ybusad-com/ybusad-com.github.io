@@ -1,0 +1,1 @@
+<?php require('304.php') ?>

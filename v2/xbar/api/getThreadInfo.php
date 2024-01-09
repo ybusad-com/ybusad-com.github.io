@@ -1,0 +1,1 @@
+{"code":0,"msg":"ok","data":{"author":"","authorCode":"","barName":"","classifyName":"","exists":false,"goodClassifyName":"","id":0,"isGood":false,"isPicture":false,"isRepost":false,"lastReplyTime":"0001-01-01 00:00:00","lastReplyUser":"","lastReplyUserCode":"","postTime":"0001-01-01 00:00:00","preview":"","replyCount":0,"title":"","topState":0}}

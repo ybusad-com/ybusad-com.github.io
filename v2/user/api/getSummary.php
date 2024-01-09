@@ -1,0 +1,1 @@
+{"code":0,"msg":"ok","data":{"exists":false,"name":"","code":"","alias":"","description":"","homepageUrl":"/404","group":0,"groupName":"普通用户","isLocked":false,"gender":0,"avatarUrl":"https://static.ybusad.com/common/person.jpg","realName":"","refBaike":"","isManager":false,"isMe":false,"isLover":false,"introduction":"","joinTime":"0001-01-01 00:00:00"}}

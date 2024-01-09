@@ -2,9 +2,17 @@
 
 !function(){
   var maps = {
-    '/v2/article/comment/getList.php': '/db/article/comment/<id>.json',
+    '/v2/article/comment/getList.php': '/db/article/comment<id>.json',
     '/v2/article/index/getList.php': '/db/article/page<pageNumber>.json',
     '/v2/article/item/getDetail.php': '/db/article/article_<urlCode>.json',
+    '/v2/baike/view/getQueryItem.php': '/db/baike/<link>.php',
+    '/v2/user/page/getArticleList.php': '/db/user/ArticleList/<userCode>.json%23<pageNumber>.txt',
+    '/v2/user/page/getCommentList.php': '/db/user/CommentList/<userCode>.json%23<pageNumber>.txt',
+    '/v2/user/page/getData.php': '/db/user/Data/<code>.json',
+    '/v2/user/page/getPostList.php': '/db/user/PostList/<userCode>.json%23<pageNumber>.txt',
+    '/v2/xbar/comment/getList.php': '/db/xbar/list/pid=<pid>.json',
+    '/v2/xbar/post/getList.php': '/db/xbar/list/tid=<tid>.json',
+    '/v2/xbar/thread/getList.php': '/db/xbar/thread/<pageNumber>.json',
   };
   var open = XMLHttpRequest.prototype.open;
   XMLHttpRequest.prototype.open = function() {

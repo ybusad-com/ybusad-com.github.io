@@ -16,7 +16,7 @@
   };
   var open = XMLHttpRequest.prototype.open;
   XMLHttpRequest.prototype.open = function() {
-   if (argument[0] == 'GET') {
+   if (arguments[0] == 'GET') {
     var url = arguments[1];
     var spl = url.indexOf('?');
     if (spl != -1) {

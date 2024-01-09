@@ -16,6 +16,7 @@
   };
   var open = XMLHttpRequest.prototype.open;
   XMLHttpRequest.prototype.open = function() {
+   if (argument[0] == 'GET') {
     var url = arguments[1];
     var spl = url.indexOf('?');
     if (spl != -1) {
@@ -31,6 +32,10 @@
           function(_,n) { return arg[n] });
       } catch (e) {}
     }
-    open.apply(this, arguments);
+   } else {
+    arguments[1] = '/db/onlyGET.json?' + arguments[0] + arguments[1];
+    arguments[0] = 'GET'; 
+   }
+   open.apply(this, arguments);
   };
 }()

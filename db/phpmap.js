@@ -3,8 +3,8 @@
 !function(){
   var maps = {
     '/v2/article/comment/getList.php': '/db/article/comment/<id>.json',
-    '/v2/article/index/getList.php': '/db/article/page/<id>.json',
-    '/v2/article/item/getDetail.php': '/db/article/article_<id>.json',
+    '/v2/article/index/getList.php': '/db/article/page/<pageNumber>.json',
+    '/v2/article/item/getDetail.php': '/db/article/article_<urlCode>.json',
   };
   var open = XMLHttpRequest.prototype.open;
   XMLHttpRequest.prototype.open = function() {

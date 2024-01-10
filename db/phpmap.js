@@ -15,9 +15,9 @@
     '/v2/xbar/thread/getList.php': '/db/xbar/thread/<pageNumber>.json',
   };
   var open = XMLHttpRequest.prototype.open;
-  XMLHttpRequest.prototype.open = function() {
-   if (arguments[0] == 'GET') {
-    var url = arguments[1];
+  XMLHttpRequest.prototype.open = function(method, url) {
+   if (/\/\//.test(url.slice(0,8))); else
+   if (method == 'GET') {
     var spl = url.indexOf('?');
     if (spl != -1) {
       var arg = {};

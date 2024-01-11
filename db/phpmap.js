@@ -13,6 +13,7 @@
     '/v2/xbar/comment/getList.json': '/db/xbar/list/pid=<pid>.json',
     '/v2/xbar/post/getList.json': '/db/xbar/list/tid=<tid>.json',
     '/v2/xbar/thread/getList.json': '/db/xbar/thread/<pageNumber>.json',
+    '/v2/essay/index/getData.json': '/db/essay/list/<offset/30|0>.json',
   };
   var open = XMLHttpRequest.prototype.open;
   XMLHttpRequest.prototype.open = function(method, url) {
@@ -29,7 +30,7 @@
       url = url.slice(0,spl);
       try {
         arguments[1] = maps[url].replace(/<(.*?)>/g,
-          function(_,n) { return arg[n] });
+          function(_,n) { return eval('arg.'+n) });
       } catch (e) {}
     }
    } else {

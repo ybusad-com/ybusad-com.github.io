@@ -14,8 +14,9 @@
     '/v2/xbar/post/getList.json': '/db/xbar/list/tid=<tid>.json',
     '/v2/xbar/thread/getList.json': '/db/xbar/thread/<pageNumber>.json',
     '/v2/essay/index/getData.json': '/db/essay/list/<offset/30|0>.json',
-    '/v2/essay/item/getListFromId.php': '/db/essay/id/<id>.json',
-    '/v2/essay/item/getListFromDate.php': '/db/essay/date/<date>.json',
+    '/v2/essay/item/getListFromId.json': '/db/essay/id/<id>.json',
+    '/v2/essay/item/getListFromDate.json': '/db/essay/date/<date>.json',
+    '/v2/essay/item/getCommentList.json': '/db/essay/comment/<id>.json',
   };
   var open = XMLHttpRequest.prototype.open;
   XMLHttpRequest.prototype.open = function(method, url) {

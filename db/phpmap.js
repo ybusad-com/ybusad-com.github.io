@@ -14,6 +14,8 @@
     '/v2/xbar/post/getList.json': '/db/xbar/list/tid=<tid>.json',
     '/v2/xbar/thread/getList.json': '/db/xbar/thread/<pageNumber>.json',
     '/v2/essay/index/getData.json': '/db/essay/list/<offset/30|0>.json',
+    '/v2/essay/item/getListFromId.php': '/db/essay/id/<id>.json',
+    '/v2/essay/item/getListFromDate.php': '/db/essay/date/<date>.json',
   };
   var open = XMLHttpRequest.prototype.open;
   XMLHttpRequest.prototype.open = function(method, url) {
@@ -26,10 +28,8 @@
         var x = v.indexOf('=');
         arg[v.slice(0,x)] = v.slice(x+1);
       });
-      // console.log (url, arg);
-      url = url.slice(0,spl);
       try {
-        arguments[1] = maps[url].replace(/<(.*?)>/g,
+        arguments[1] = maps[url.slice(0,spl)].replace(/<(.*?)>/g,
           function(_,n) { return eval('arg.'+n) });
       } catch (e) {}
     }
